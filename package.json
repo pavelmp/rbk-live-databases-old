@@ -1,0 +1,25 @@
+{
+  "name": "rbk-live-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelmp/rbk-live-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelmp/rbk-live-server/issues"
+  },
+  "homepage": "https://github.com/pavelmp/rbk-live-server#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.5.4",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
