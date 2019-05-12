@@ -13,7 +13,7 @@ const databaseUrl = process.env.DATABASE_URL || 'mongodb+srv://pavelp:randompass
 mongoose.connect(databaseUrl, { useNewUrlParser: true });
 
 const app = express();
-const port = process.env.PORT || 300;
+const port = process.env.PORT || 3000;
 
 //Middleware
 app.use(printTime);
