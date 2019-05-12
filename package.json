@@ -2,7 +2,7 @@
   "name": "rbk-live-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
@@ -21,8 +21,8 @@
     "bluebird": "^3.5.4",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
-    "mongod": "^2.0.0",
     "mongodb": "^3.2.4",
-    "mongoose": "^5.5.7"
+    "mongoose": "^5.5.7",
+    "nodemon": "^1.19.0"
   }
 }
