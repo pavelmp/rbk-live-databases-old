@@ -2,11 +2,15 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const Bluebird = require("bluebird");
+const mongoose = require('mongoose');
 const { printTime, bodyParser, authenticate } = require('./middleware.js');
 const { SECRET_KEY } = require('./secret.js');
 const { HTTP_CREATED, HTTP_UNAUTHORIZED } = require('./constants.js');
 const { User, Place } = require('./database/models');
 const { getPlaces, postPlace } = require('./database/controller');
+
+const databaseUrl = process.env.DATABASE_URL || 'mongodb+srv://pavelp:randompass@cluster0-z6tj0.mongodb.net/test?retryWrites=true';
+mongoose.connect(databaseUrl, { useNewUrlParser: true });
 
 const app = express();
 const port = 3000;
