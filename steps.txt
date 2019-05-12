@@ -19,5 +19,10 @@ https://stackoverflow.com/questions/16109788/why-mongodb-find-never-got-to-my-ca
 
 11) Set up mLab cluster and connect in Robo 3T
 
-12) https://blog.logrocket.com/setting-up-a-restful-api-with-node-js-and-postgresql-d96d6fc892d8
+12) Installing PostgresSQL https://blog.logrocket.com/setting-up-a-restful-api-with-node-js-and-postgresql-d96d6fc892d8
+
+13) Deployment
+Heroku login, CLI, heroku logs --tail, heroku restart, setting up ENV, modifying definition of PORT in the app, secret.js, whitelisting
+
+
 
